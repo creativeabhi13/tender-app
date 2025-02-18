@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 
 // Routes
-app.use("/tenders", tenderRoutes);
+app.use("/api/tenders", tenderRoutes);
 
 // Periodic Scraper (runs every hour)
 cron.schedule("0 * * * *", async () => {
