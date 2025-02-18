@@ -10,7 +10,7 @@ import {
   Button,
 } from "@mui/material";
 
-const API_URL = "http://localhost:5000/api/tenders";
+const API_URL = "http://localhost:5001/api/tenders";
 
 const TenderDetails = () => {
   const { id } = useParams();
